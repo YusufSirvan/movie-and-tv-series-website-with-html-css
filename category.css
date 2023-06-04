@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: orange;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    margin-left: 30px;
+}
+span{
+    margin-left: 500px;
+}
+aside{
+    margin: 0px 20px 0px 0px;
+    width: 200px;
+    height: 500px;
+    background-color:  rgba(43, 27, 43, 0.76);
+    border-radius: 0px 0px 15px 15px;
+
+    
+}
+aside a{
+    display: block;
+    width: 180px;
+    background-color: orange;
+    padding: 10px;
+    margin: 10px 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+}
+h3{
+    margin: 10px;
+    color: gray;
+}
+.container{
+    display: flex;
+}
+.poster{
+    width: 1130px;
+    height: 167px;
+    background-color: rgba(43, 27, 43, 0.76);
+}
+#last-poster{
+    border-radius: 0px 0px 15px 15px;
+}
+h2{
+    height: 25px;
+    font-size: 15px;
+    padding: 5px;
+    color: gray;
+}
+img{
+    width: 150px;
+    height: 120px;
+    margin: 20px 15px;
+    border-radius: 15px;
+}
+footer{
+    margin-top: 80px;
+    background-color: orange;
+    text-align: center;
+}
